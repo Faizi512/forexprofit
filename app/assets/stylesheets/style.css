@@ -349,7 +349,7 @@ template {
   display: none;
 }
 
-body{background-size: auto;background: #020f22 url("../images/bg.jpg") no-repeat fixed top; ba background-size: cover;}
+body{background-size: auto;background: #020f22 url("bg.jpg") no-repeat fixed top;}
  
  
 
