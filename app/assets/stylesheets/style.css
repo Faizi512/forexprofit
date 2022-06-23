@@ -10,8 +10,10 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -52,9 +54,12 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -63,8 +68,10 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -84,9 +91,12 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -106,8 +116,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -163,10 +175,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -175,7 +191,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -185,7 +202,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -239,12 +257,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -270,8 +294,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -289,8 +315,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -307,8 +335,10 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -349,120 +379,189 @@ template {
   display: none;
 }
 
-body{background-size: auto;background: #020f22 url("bg.jpg") no-repeat fixed top;}
- 
- 
+body {
+  background-size: auto;
+  background: #020f22 url("bg.jpg") no-repeat fixed top;
+}
 
 
-.theme_spacing{ margin:5% 0 3% 0px;}
-.form_custom{ border:solid #fff 5px; background: #f18126; border-radius:30px; padding: 60px;}
-.form-label{ font-size:17px; color: #fff; font-weight: 700;}
-.input_style{ font-size:16px; color: #acacac; font-weight:normal; border-radius:5px; }
-.cst_btn{ background:#fff; color: #f18126; font-size: 18px; font-weight: 700; text-transform: uppercase;}
 
-.bnr_slogan{ margin:4% 0 0 8%; text-align: left;} 
-.bnr_slogan img{ margin:0% 0 2% 0%;} 
-.bnr_slogan h3{ font-size: 40px; color: #fff; font-weight: 800;}
-.bnr_slogan ul{ margin: 0px; padding: 0px;}
-.bnr_slogan ul li{ list-style: none; font-size:22px; margin:18px 0; color: #fff; font-weight:normal;}
-.bnr_slogan ul li img{ margin: 0 8px 0 0px;}
 
-.client{ font-size:40px; color: #fff; font-weight: 800;}
+.theme_spacing {
+  margin: 5% 0 3% 0px;
+}
+
+.form_custom {
+  border: solid #fff 5px;
+  background: #f18126;
+  border-radius: 30px;
+  padding: 60px;
+}
+
+.form-label {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.input_style {
+  font-size: 16px;
+  color: #acacac;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+.cst_btn {
+  background: #fff;
+  color: #f18126;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bnr_slogan {
+  margin: 4% 0 0 8%;
+  text-align: left;
+}
+
+.bnr_slogan img {
+  margin: 0% 0 2% 0%;
+}
+
+.bnr_slogan h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.bnr_slogan ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bnr_slogan ul li {
+  list-style: none;
+  font-size: 22px;
+  margin: 18px 0;
+  color: #fff;
+  font-weight: normal;
+}
+
+.bnr_slogan ul li img {
+  margin: 0 8px 0 0px;
+}
+
+.client {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 800;
+}
 
 .stars {
-    display: block;
-    width:auto!important;
-    float: left!important;
-    border: 5px solid transparent!important;
-    border-radius:0px!important;
-    /* margin-left: 54px; */
-    margin-right:0px!important;
-    /* margin-top: 15px; */
+  display: block;
+  width: auto !important;
+  float: left !important;
+  border: 5px solid transparent !important;
+  border-radius: 0px !important;
+  /* margin-left: 54px; */
+  margin-right: 0px !important;
+  /* margin-top: 15px; */
 }
 
 
 .owl-carousel .owl-item img {
-    display: block;
-    width: 20%;
-    float: left;
-    border: 5px solid #e1f6f9;
-    border-radius: 1000px;
-    /* margin-left: 54px; */
-    margin-right: 10px;
-    /* margin-top: 15px; */
+  display: block;
+  width: 20%;
+  float: left;
+  border: 5px solid #e1f6f9;
+  border-radius: 1000px;
+  /* margin-left: 54px; */
+  margin-right: 10px;
+  /* margin-top: 15px; */
 }
+
 .testimonial-item.equal-height.style-6 {
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 15px;
-    border: solid 1px #dbdbdb;
-    padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 15px;
+  border: solid 1px #dbdbdb;
+  padding: 20px;
 }
+
 .cell-right {
-    /* text-align: center; */
-    /* margin-right: 80px; */
-    padding-top: 15px;
-    /* padding-bottom: 20px; */
+  /* text-align: center; */
+  /* margin-right: 80px; */
+  padding-top: 15px;
+  /* padding-bottom: 20px; */
 }
+
 .testimonial-name {
-    font-weight: 600;
+  font-weight: 600;
 }
+
 .testimonial-content.quote {
-    padding: 15px 0px;
-    display: inline-flex;
+  padding: 15px 0px;
+  display: inline-flex;
 }
-.et_right_sidebar #main-content .container:before{
-    display: none;
+
+.et_right_sidebar #main-content .container:before {
+  display: none;
 }
+
 #main-content .container {
-    padding-top: 10px;
+  padding-top: 10px;
 }
+
 i.fa.fa-quote-left {
-    padding: 0px 10px;
-    color: #999;
+  padding: 0px 10px;
+  color: #999;
 }
 
 
-    @media only screen and (min-width: 960px) {
-        /* styles for browsers larger than 960px; */
-    }
-    @media only screen and (min-width: 1440px) {
-        /* styles for browsers larger than 1440px; */
-    }
-    @media only screen and (min-width: 2000px) {
-        /* for sumo sized (mac) screens */
-    }
-    @media only screen and (max-device-width: 480px) {
- 
-    }
-    @media only screen and (device-width: 768px) {
-       /* default iPad screens */
-    }
-    /* different techniques for iPad screening */
-    @media only screen and (min-device-width:320px) and (max-device-width: 480px) and (orientation:portrait) {
-      /* For portrait layouts only */
-		#first-row {
-  order: 2;
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
 }
-#second-row {
-  order: 1;
+
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
 }
-		
-		.bnr_slogan {
+
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+
+@media only screen and (max-device-width: 480px) {}
+
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width:320px) and (max-device-width: 480px) and (orientation:portrait) {
+
+  /* For portrait layouts only */
+  #first-row {
+    order: 2;
+  }
+
+  #second-row {
+    order: 1;
+  }
+
+  .bnr_slogan {
     margin: 4% 15px;
     text-align: center;
-}
-		.client {
+  }
+
+  .client {
     font-size: 40px;
     color: #fff;
     font-weight: 800;
     text-align: center;
+  }
 }
-    }
 
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-      /* For landscape layouts only */
-		
-    }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
 
-         
+}
