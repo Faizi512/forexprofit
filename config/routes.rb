@@ -3,5 +3,4 @@ Rails.application.routes.draw do
   root to: "pages#index"
   post "/submit-lead", to: "pages#submit_lead"
   get "/success", to: "pages#success"
-  get "/forex-slava", to: "pages#forex_slava"
 end
