@@ -4,7 +4,6 @@ import $ from "jquery"
 
 $( document ).ready(function() {
  
-debugger
 var isEmail =false
 var isPhone =false
 var formValidation = {};
@@ -39,7 +38,7 @@ validate();
   function validatePhone(countryCode = "GB", callingCode = "44"){
     window.Parsley.addValidator('validphone', {
       validateString: function(value){
-        var xhr = $.ajax('https://go.webformsubmit.com/dukeleads/restapi/v1.2/validate/mobile?key=50f64816a3eda24ab9ecf6c265cae858&value='+$('.phone').val())
+        var xhr = $.ajax(`https://go.webformsubmit.com/dukeleads/restapi/v1.2/validate/mobile?value=${callingCode}${value}&key=7b32461b4afd7912a0669d5cf2369d50&countryCode=${countryCode}`)
         return xhr.then(function(json) {
           var skipresponse = ["EC_ABSENT_SUBSCRIBER", "EC_ABSENT_SUBSCRIBER_SM", "EC_CALL_BARRED", "EC_SYSTEM_FAILURE","EC_SM_DF_memoryCapacityExceeded", "EC_NO_RESPONSE", "EC_NNR_noTranslationForThisSpecificAddress", "EC_NNR_MTPfailure", "EC_NNR_networkCongestion"]
           debugger
@@ -125,6 +124,7 @@ validate();
           intlTelInput(input, { initialCountry: data.country_code, allowDropdown: true, separateDialCode: false});
         })
         var areaCode = data.calling_code
+        $("#country_code").val(data.calling_code)
         validatePhone(data.country_code, data.calling_code)
       },
       error: function(err){
